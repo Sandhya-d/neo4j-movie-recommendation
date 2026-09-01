@@ -1,0 +1,17 @@
+# Raw and processed data — too large for Git, regenerate via ETL scripts
+data/
+
+# Generated visualization
+graphify_visualization.png
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
