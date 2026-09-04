@@ -1,6 +1,9 @@
 # Raw and processed data — too large for Git, regenerate via ETL scripts
 data/
 
+# Secrets — never push real credentials
+.env
+
 # Generated visualization
 graphify_visualization.png
 

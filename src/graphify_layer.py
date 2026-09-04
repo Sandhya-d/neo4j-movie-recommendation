@@ -4,9 +4,7 @@ import matplotlib.pyplot as plt
 
 
 # Neo4j connection
-uri = "neo4j://127.0.0.1:7687"
-username = "neo4j"
-password = "Sandhyaa"
+from config import NEO4J_URI, NEO4J_USER, NEO4J_PASSWORD
 
 driver = GraphDatabase.driver(
     uri,

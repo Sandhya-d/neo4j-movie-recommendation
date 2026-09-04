@@ -8,9 +8,7 @@ rediscovers the held-out movies.
 from neo4j import GraphDatabase
 import random
 
-NEO4J_URI = "neo4j://127.0.0.1:7687"
-NEO4J_USER = "neo4j"
-NEO4J_PASSWORD = "Sandhyaa"
+from config import NEO4J_URI, NEO4J_USER, NEO4J_PASSWORD
 
 driver = GraphDatabase.driver(NEO4J_URI, auth=(NEO4J_USER, NEO4J_PASSWORD))
 
